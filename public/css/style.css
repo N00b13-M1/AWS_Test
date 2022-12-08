@@ -1,0 +1,29 @@
+img{
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: red;
+}
+
+th, td{
+	border: 1px solid black;
+	padding: 10 px;
+}
+
+th{
+	background-color:RBGa(110,200,40);
+	font-weight: normal
+}
+
+.tab{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.div2{
+
+    display:flex;
+    justify-content: center;
+}
