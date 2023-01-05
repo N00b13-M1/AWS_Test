@@ -1,7 +1,15 @@
+.main{
+    display:flex;
+}
+
 .left{
     background-color: rgba(113, 172, 72);
     width: 30%;
     font: white;
+}
+
+.right{
+    width: 70%;
 }
 
 /* img{
