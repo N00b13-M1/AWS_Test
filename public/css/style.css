@@ -5,11 +5,12 @@
 .left{
     background-color: rgba(113, 172, 72);
     width: 30%;
-    font: white;
+    color: white;
 }
 
 .right{
     width: 70%;
+    color: black;
 }
 
 /* img{
