@@ -1,5 +1,11 @@
+body {
+    background-color: rgba(113, 172, 72);
+    font-family: Calibri, sans-serif;
+}
+
 .main{
     display:flex;
+    
 }
 
 .left{
