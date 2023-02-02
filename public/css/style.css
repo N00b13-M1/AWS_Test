@@ -8,6 +8,12 @@ body {
     
 }
 
+li {
+    list-style-type: none;
+}
+
+
+
 .left{
     background-color: rgba(113, 172, 72);
     width: 30%;
@@ -16,9 +22,25 @@ body {
 
 .right{
     width: 70%;
+    background-color: rgba(255, 255, 255);
     color: black;
 }
 
+.info_header{
+    border-bottom: 2px solid white;
+}
+
+.picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.fa-solid, .fa-brands{
+    font-size: 300%;
+}
 /* img{
     border: 2px solid black;
     border-radius: 50%;
