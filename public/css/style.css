@@ -130,6 +130,10 @@ h2 {
     align-items: center;
 }
 
+.experience_header>i{
+    width: 10%;
+}
+
 .experience_header>h2{
     border-bottom: 4px solid black;
     margin-left: 10px;
@@ -143,6 +147,10 @@ h2 {
 .references_header{
     display: flex;
     align-items: center;
+}
+
+.references_header>i{
+    width: 10%;
 }
 
 .references_header>h2{
@@ -160,6 +168,8 @@ h2 {
 .reference>h4,p{
     margin: 0px;
 }
+
+
 
 /* img{
     border: 2px solid black;
