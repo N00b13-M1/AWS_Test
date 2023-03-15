@@ -3,8 +3,6 @@ body {
     font-family: Calibri, sans-serif;
 }
 
-
-
 .main{
     margin-left:25%;
     margin-right: 25%;
@@ -21,18 +19,16 @@ a {
     text-decoration: none;
 }
 
-
 .left{
     padding-left: 2%;
     background-color: rgba(113, 172, 72);
-    width: 45%;
+    width: 36%;
     color: white;
 }
 
-
-
 .right{
-    width:55%;
+    padding-left: 2%;
+    width:64%;
     background-color: rgba(255, 255, 255);
     color: black;
 }
@@ -96,8 +92,6 @@ h3 {
     /* white-space: nowrap; */
 }
 
-
-
 .bean{
     border: 2px solid white;
     border-radius:5px;
@@ -111,9 +105,36 @@ h3 {
 }
 
 .bean_list>:nth-child(3)::first-letter{
-    font-size: 14px;
+    font-size: 12px;
 }
 
+.bean_list>:last-child::first-letter{
+    font-weight: 900;
+    /* font-size: 40px; */
+} 
+
+.right>h1,h2{
+    text-align: center;
+}
+
+.languages_header{
+    border-bottom: 4px solid white;
+}
+
+.experience_header{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.experience_header>h3{
+    border-bottom: 4px solid black;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 100%;
+    line-height: 35px;
+}
 
 /* img{
     border: 2px solid black;
