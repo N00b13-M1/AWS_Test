@@ -4,8 +4,8 @@ body {
 }
 
 .main{
-    margin-left:25%;
-    margin-right: 25%;
+    margin-left:20%;
+    margin-right: 20%;
     display:flex;
 }
 
@@ -22,13 +22,13 @@ a {
 .left{
     padding-left: 2%;
     background-color: rgba(113, 172, 72);
-    width: 36%;
+    width: 40%;
     color: white;
 }
 
 .right{
     padding-left: 2%;
-    width:64%;
+    width:65%;
     background-color: rgba(255, 255, 255);
     color: black;
 }
@@ -50,7 +50,7 @@ img {
     margin-bottom: 2px; */
 }
 
-h3 {
+h2 {
     margin-bottom: 8px;
     margin-top: 0px;
 }
@@ -113,8 +113,12 @@ h3 {
     /* font-size: 40px; */
 } 
 
-.right>h1,h2{
+.right.who>h1{
     text-align: center;
+}
+
+.right>i{
+    width: 50px;
 }
 
 .languages_header{
@@ -126,14 +130,35 @@ h3 {
     align-items: center;
 }
 
-
-
-.experience_header>h3{
+.experience_header>h2{
     border-bottom: 4px solid black;
     margin-left: 10px;
     margin-top: 5px;
     width: 100%;
     line-height: 35px;
+    
+}
+
+
+.references_header{
+    display: flex;
+    align-items: center;
+}
+
+.references_header>h2{
+    border-bottom: 4px solid black;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 100%;
+    line-height: 35px;
+}
+
+.references_block{
+    display: flex;
+}
+
+.reference>h4,p{
+    margin: 0px;
 }
 
 /* img{
