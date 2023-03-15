@@ -113,9 +113,13 @@ h2 {
     /* font-size: 40px; */
 } 
 
-.right.who>h1{
+.who> *{
     text-align: center;
 }
+
+/* .who>h2{
+    text-align: center;
+} */
 
 .right>i{
     width: 50px;
@@ -142,7 +146,6 @@ h2 {
     line-height: 35px;
     
 }
-
 
 .references_header{
     display: flex;
