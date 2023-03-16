@@ -85,7 +85,6 @@ h2 {
 .fa-solid, .fa-brands{
     font-size: 250%;
     margin: 10px 0px;
-
 }
 
 
@@ -172,11 +171,28 @@ h2 {
 
 .references_block{
     display: flex;
+    justify-content: space-between;
 }
 
 .reference>h4,p{
     margin: 0px;
 }
+
+.reference.one{
+    margin: 0;
+}
+
+.reference.two{
+    margin-right: 10%;
+}
+
+.references_contact{
+    display:flex;
+    justify-content: center;
+    /* background-color: green; */
+    margin: 5px auto;
+}
+
 
 
 
