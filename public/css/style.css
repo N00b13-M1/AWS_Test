@@ -9,9 +9,24 @@ body {
     display:flex;
 }
 
-ul {
-    list-style-type: none;
-    padding-inline-start: 10px;
+.one .job_desc>ul {
+    list-style-type:none;
+    padding-inline-start: 5px;
+    /* margin-top: 10px; */
+    margin-left:12px;
+}
+
+.two .job_desc>ul {
+    list-style-type:disc;
+    padding-inline-start: 5px;
+    margin: 10px 0;
+    margin-left: 12px;
+}
+
+
+.two .job_desc>ul>p {
+    margin-right: 20px;
+    width: 100%;
 }
 
 a {
@@ -140,12 +155,12 @@ h2 {
 }
 
 .experience_header>i{
-    width: 10%;
+    width: 15%;
 }
 
 .experience_header>h2{
     border-bottom: 4px solid black;
-    margin-left: 10px;
+    /* margin-left: 5px; */
     margin-top: 5px;
     width: 100%;
     line-height: 35px;
@@ -158,12 +173,12 @@ h2 {
 }
 
 .references_header>i{
-    width: 10%;
+    width: 15%;
 }
 
 .references_header>h2{
     border-bottom: 4px solid black;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     margin-top: 5px;
     width: 100%;
     line-height: 35px;
@@ -193,6 +208,39 @@ h2 {
     margin: 5px auto;
 }
 
+
+
+.company>h3{
+    /* font-size: 16px; */
+    margin: 0px 0px;
+    background-color: green;
+}
+
+
+.pos_header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.function>h4{
+
+    margin: 0px 0px;
+
+}
+.period>h4{
+    margin: 0px 10px;
+    margin-right: 10px;
+    
+}
+
+.function_desc>p{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.one .job_desc>ul{
+    margin-top:10px;
+}
 
 
 
