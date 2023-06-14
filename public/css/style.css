@@ -9,6 +9,7 @@ body {
     display:flex;
 }
 
+
 .one .job_desc>ul {
     list-style-type:none;
     padding-inline-start: 5px;
@@ -73,6 +74,9 @@ h2 {
 .info_grid {
     display:flex;
 }
+
+
+
 
 .info_text {
     margin: 20px 0px 0px 10px;
@@ -147,6 +151,50 @@ h2 {
 
 .languages_header{
     border-bottom: 4px solid white;
+}
+
+.lang{
+    background-color: white;
+    margin:4px 4px;
+    border: 1px black solid;
+    /* border-radius: 25px; */
+}
+
+
+.inner{
+    background-color: rgba(113, 172, 72);
+    margin: 0px 0px;
+    /* padding: 1px;  */
+    height: 13px;
+    /* width: 95%; */
+} 
+
+.du{
+    width: 100%;
+}
+
+.fr{
+    width: 80%;
+}
+
+.en{
+    width: 80%;
+}
+
+.sp{
+    width: 25%;
+}
+
+.py{
+    width: 25%;
+}
+
+.jsr{
+    width: 50%;
+}
+
+.la{
+    width: 50%;
 }
 
 .experience_header{
