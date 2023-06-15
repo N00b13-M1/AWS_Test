@@ -94,7 +94,7 @@ h2 {
 
 .info_data {
     font-size: 12px;
-    font-weight:bolder;
+    font-weight:bold;
     line-height: 2px;
     margin-bottom: 20px;
 }
@@ -103,7 +103,6 @@ h2 {
     font-size: 250%;
     margin: 10px 0px;
 }
-
 
 .profile_header{
     border-bottom: 4px solid white;
