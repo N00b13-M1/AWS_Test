@@ -29,3 +29,4 @@ for (let test in fruits) {
 
     console.log(fruits[test]);
 };
+
