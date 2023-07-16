@@ -42,3 +42,4 @@ for (let key in people){
     console.log(people[key])
     console.log("'this worked'")
 }
+
