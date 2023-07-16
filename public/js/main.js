@@ -30,3 +30,15 @@ for (let test in fruits) {
     console.log(fruits[test]);
 };
 
+const people = {
+    city: "cainta",
+    province: "rizal",
+    condominum: "cambridge",
+}
+
+// console.log(people.city);
+
+for (let key in people){
+    console.log(people[key])
+    console.log("'this worked'")
+}
