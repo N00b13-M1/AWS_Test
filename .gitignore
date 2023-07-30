@@ -1,4 +1,6 @@
 *.pem
 /node_modules
 ec2-fundamentals/
-/test
+
+
+
