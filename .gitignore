@@ -1,6 +1,5 @@
 *.pem
 /node_modules
 ec2-fundamentals/
-
-
-
+s3/
+cloudformation/
