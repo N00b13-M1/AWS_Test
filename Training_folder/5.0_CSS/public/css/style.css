@@ -1,0 +1,47 @@
+*{
+    background-color: rgb(148,106,236);
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: white;
+    color: black
+}
+
+h1{
+    padding: 20px 0;
+    font-size: 50px;
+}
+main>h2,p{
+    background-color: white;
+    color: black;
+    padding: 20px 0px;
+}
+
+
+nav>ul>li{
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+}
+
+nav>ul>li>a{
+    text-decoration-line: none;
+}
+
+h2{
+    font-size: 30px;
+}
+
+button{
+    border-radius: 5px;
+    border-color: rgb(148,106,236);
+    padding: 10px 5px
+}
+
+footer{
+    padding: 40px 0px
+}
