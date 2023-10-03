@@ -28,19 +28,36 @@
     </main>
     <footer>Copyright &copy; App Brewery</footer>
     <script>
-        let applyCSS = document.querySelector("head");
+        const applyCSS = document.querySelector("head");
         console.log(applyCSS);
-        let button = document.querySelector("button");
-        console.log(button)
-        let link = document.createElement("link")
+        const toggleButton = document.querySelector("button");
+        console.log(toggleButton.innerText)
+
+        let state = true
+
+        const link = document.createElement("link")
         link.rel= "stylesheet"
         link.href= "./public/css/style.css"
-        console.log(link)
-        
-        button.addEventListener("click", () => {
-            applyCSS.appendChild(link)
-            // applyCSS.appendChild(css);
+        // console.log(link)
+      
+        toggleButton.addEventListener("click", () => {
+            console.log(state+" niveau2")
+            if (state) {
+                console.log("state1")
+                applyCSS.appendChild(link);
+                // state = false
+            } else {
+                console.log("state2")
+                applyCSS.removeChild(link)
+                // state = true
+            }
+            
+            state = !state
+            console.log(state+" niveau3")
+
         });
+        console.log(state+" niveau1")
+        
     </script>
 </body>
 </html>
