@@ -28,9 +28,9 @@
     </main>
     <footer>Copyright &copy; App Brewery</footer>
     <script>
-        const applyCSS = document.querySelector("head");
+        let applyCSS = document.querySelector("head");
         console.log(applyCSS);
-        const toggleButton = document.querySelector("button");
+        let toggleButton = document.querySelector("button");
         console.log(toggleButton.innerText)
 
         let state = true
@@ -41,7 +41,6 @@
         // console.log(link)
       
         toggleButton.addEventListener("click", () => {
-            console.log(state+" niveau2")
             if (state) {
                 console.log("state1")
                 applyCSS.appendChild(link);
