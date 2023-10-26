@@ -1,3 +1,21 @@
 h1 {
     color: green;
 }
+
+.blue_text{
+    color: blue;
+}
+
+
+.red_text{
+    color: red;
+}
+
+
+#green_text{
+    color:green;
+}
+
+.purple_text{
+    color:blueviolet;
+}
