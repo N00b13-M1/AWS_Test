@@ -1,0 +1,25 @@
+.color-title{
+    font-weight: normal;
+}
+
+h2:nth-of-type(2) {
+    color: red;
+}
+
+h2:nth-of-type(3) {
+    color: rgba(39, 215, 242, 0.972)
+}
+
+h2:nth-of-type(4) {
+    color: orange;
+}
+
+h2:nth-of-type(5) {
+    color: forestgreen;
+}
+
+
+img{
+    height: 200px;
+    width: 200px;
+}
