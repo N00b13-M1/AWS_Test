@@ -4,8 +4,9 @@
 }
 
 div{
-    margin-top: 3%;
+    padding-top: 7%;
     width: 60%;
+    margin-left: 18%
 }
 
 div> img{
@@ -23,8 +24,9 @@ h1,p{
 
 h1{
     padding: 10px 0;
+    text-transform: uppercase;
 }
 
 p{
-    font-size: 7px;
+    font-size: 8px;
 }
