@@ -1,0 +1,30 @@
+*{
+    background-color: black;
+    margin: auto;
+}
+
+div{
+    margin-top: 3%;
+    width: 60%;
+}
+
+div> img{
+    border: 2px solid white;
+    width: 100%;
+    
+}
+
+h1,p{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1{
+    padding: 10px 0;
+}
+
+p{
+    font-size: 7px;
+}
