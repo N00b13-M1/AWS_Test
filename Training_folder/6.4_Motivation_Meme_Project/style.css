@@ -1,4 +1,4 @@
-*{
+/* *{
     background-color: black;
     margin: auto;
 }
@@ -29,4 +29,32 @@ h1{
 
 p{
     font-size: 8px;
+} */
+
+body{
+    background-color: black;;
+}
+
+.poster{
+    width:50%;
+    color: white;
+    margin-left:25%;
+    margin-top: 5%;
+    text-align: center; 
+    font-family: "Libre Baskerville", serif;
+}
+.poster>img{
+    width:100%;
+    border: 5px solid white;
+}
+
+
+
+h1{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+p{
+    font-size: 10px;
 }

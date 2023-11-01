@@ -1,1 +1,34 @@
 /* Write your code here: */
+
+h1,h2{
+    color: blueviolet;
+}
+
+.box > .done{
+    color: red;
+}
+
+.list li {
+    color: blue;
+
+}
+
+li.done {
+    color: seagreen;
+}
+
+ul>p{
+    font-size: 0.5rem;
+}
+/* 
+.box>p {
+    color: red;
+}
+
+ul>li {
+    color: blue;
+}
+
+.done{
+    color:green;
+} */

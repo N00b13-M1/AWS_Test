@@ -3,6 +3,7 @@
 .box {
   background-color: blue;
   padding: 10px;
+  /* border: orange solid 5px */
 }
 
 p {
