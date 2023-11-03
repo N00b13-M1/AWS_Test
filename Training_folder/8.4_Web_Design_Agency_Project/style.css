@@ -12,7 +12,61 @@ body {
 
 h1 {
   font-size: 5rem;
+  width: 70%;
 }
+
+span{
+  color: purple;
+}
+
+.left{
+  float: left;
+  width: 45%;
+}
+
+.right{
+  float: right;
+  width: 45%;
+}
+
+.card{
+  /* height: 200px; */
+}
+
+.tile-image{
+  float: left;
+  width: 50%;
+}
+
+.card-title, p {
+  padding: 5px 0 0 20px;
+  width: 45%;
+  float: right;
+}
+
+
+
+footer{
+  clear:both;
+}
+
+/* @media (min-width: 831px){
+
+}
+
+@media (min-width: 717px) and (max-width: 830px){
+
+}
+
+@media (min-width: 681px) and (max-width: 716px){
+
+} */
+
+@media (max-width: 680px){
+
+}
+
+
 
 footer {
   text-align: right;
