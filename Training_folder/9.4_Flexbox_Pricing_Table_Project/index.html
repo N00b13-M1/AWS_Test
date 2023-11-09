@@ -7,8 +7,58 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet">
   <style>
+    *{
+      margin: auto;
+    }
+
     body {
       font-family: 'Sono', sans-serif;
+    }
+
+    ul{
+      padding-left: 0;
+    }
+    li{
+      list-style: none;
+      padding: 10px 0;
+    }
+
+    .pricing-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .pricing-plan{
+      text-align: center;
+      background-color: grey;
+      margin: 10px;
+      display: inline-block;
+      min-width: 400px;
+      border-radius: 5px;
+   
+    }
+
+    .plan-title{
+      margin: 30px;
+      font-weight: bolder;
+      font-size: 25px;
+    }
+
+    .plan-price{
+      font-size: 35px;
+      font-weight: bolder;
+    }
+    
+    .plan-button{
+      margin: 0px 0px 20px 0px;
+      color: white;
+      background-color: orange;
+      border-radius: 5px;
+      padding: 10px 15px;
+      border: none
     }
 
     /* Hint: What can you do with a media query and flexbox? */
