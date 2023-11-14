@@ -19,10 +19,95 @@
     HINT: Remember you can't change the properties of grid lines.
     But grid lines are transparent!
     */
+    body{
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .container{
+      margin: 0;
+      padding: 0;
+      gap: 9px;
+      width: 748px;
+      height: 748px;
+      display: grid;
+      background-color: #000;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 22px;
+    }
+
+    .red{
+      background-color: #E72F24;
+      /* border-right: 9px solid black;
+      border-bottom: 9px solid black; */
+    }
+
+    .white {
+      background-color: #F0F1EC;
+    }
+
+    .one{
+      grid-column: span 3;
+      /* border-right: 9px solid black;
+      border-bottom: 9px solid black; */
+    }
+
+    .two{
+      /* border-right: 9px solid black;
+      border-bottom: 9px solid black; */
+      grid-row: span 2;
+    }
+
+    .three{
+      /* border-right: 9px solid black;
+      border-bottom: 9px solid black; */
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+
+    .blue{
+      background-color: #004592;
+      border-bottom: 10px solid black;
+      grid-row: span 1;
+    }
+
+    .yellow{
+      background-color: #F9D01E;
+      /* border-left: 9px solid black */
+      /* grid-row: span 1; */
+    }
+
+    .four{
+      /* border-right: 9px solid black; */
+      grid-row: span 2;
+    }
+
+    .black{
+      background-color: #232629;
+      /* grid-row: span 1; */
+      /* border-left: 9px solid black;
+      border-right: 9px solid black; */
+    }
   </style>
 </head>
 
 <body>
+  <div class="container">
+    <div class="red"></div>
+    <div class="white one">1</div>
+    <div class="white two">2</div>
+    <div class="white three">3</div>
+    <div class="blue"></div>
+    <div class="white four">4</div>
+    <div class="white five">5</div>
+    <div class="yellow"></div>
+    <div class="black"></div>
+    <!-- <div class="white six">6</div> -->
+  </div>
   <!-- Write your HTML here -->
 </body>
 
