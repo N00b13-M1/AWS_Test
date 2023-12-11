@@ -204,20 +204,37 @@
 // var x = 21 % 3
 // console.log(x)
 
-for (let i =1; i < 101; i++){
-    if(i % 3 === 0 && i % 5 === 0){
-        console.log("FizzBuzz");
-    }
-    else if(i % 3 === 0){
-        console.log("Fizz");
-    }
-    else if(i % 5 === 0){
-        console.log("Buzz");
-    }
-    else{
-        console.log(i);
-    }
+
+// for (let i =1; i < 101; i++){
+//     if(i % 3 === 0 && i % 5 === 0){
+//         console.log("FizzBuzz");
+//     }
+//     else if(i % 3 === 0){
+//         console.log("Fizz");
+//     }
+//     else if(i % 5 === 0){
+//         console.log("Buzz");
+//     }
+//     else{
+//         console.log(i);
+//     }
+// }
+
+// var list = [];
+// list.push("test",2,3,20,45);
+// console.log(list);
+// list.pop(2);
+// console.log(list);
+
+var list = [];
+
+function fizzBuzz (input) {
+    list.push(input);
+    console.log(list);
+
 }
 
 
-
+for (let i = 1; i < 10; i++){
+    fizzBuzz(i);
+}
