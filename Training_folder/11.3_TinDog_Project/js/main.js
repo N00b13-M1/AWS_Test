@@ -232,22 +232,16 @@ var count = 1
 function fizzBuzz () {
     if(count % 3 ===0 && count % 5 ===0){
         list.push("FizzBuzz");
-        console.log(list);
-        count = count+1
     } else if (count % 3 ===0){
         list.push("Fizz");
-        console.log(list);
-        count = count+1;
     } else if (count % 5 ===0){
         list.push("Buzz");
-        console.log(list);
-        count = count+1;
     }
     else{
         list.push(count);
-        console.log(list);
-        count = count+1
     }
+    console.log(list);
+    count = count+1
 }
 
 
