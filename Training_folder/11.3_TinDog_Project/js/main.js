@@ -227,14 +227,30 @@
 // console.log(list);
 
 var list = [];
+var count = 1
 
-function fizzBuzz (input) {
-    list.push(input);
-    console.log(list);
-
+function fizzBuzz () {
+    if(count % 3 ===0 && count % 5 ===0){
+        list.push("FizzBuzz");
+        console.log(list);
+        count = count+1
+    } else if (count % 3 ===0){
+        list.push("Fizz");
+        console.log(list);
+        count = count+1;
+    } else if (count % 5 ===0){
+        list.push("Buzz");
+        console.log(list);
+        count = count+1;
+    }
+    else{
+        list.push(count);
+        console.log(list);
+        count = count+1
+    }
 }
 
 
-for (let i = 1; i < 10; i++){
-    fizzBuzz(i);
-}
+// for (let i = 1; i < 10; i++){
+//     fizzBuzz(i);
+// }
