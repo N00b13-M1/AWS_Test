@@ -226,25 +226,99 @@
 // list.pop(2);
 // console.log(list);
 
-var list = [];
-var count = 1
+// var list = [];
+// var count = 1
 
-function fizzBuzz () {
-    if(count % 3 ===0 && count % 5 ===0){
-        list.push("FizzBuzz");
-    } else if (count % 3 ===0){
-        list.push("Fizz");
-    } else if (count % 5 ===0){
-        list.push("Buzz");
-    }
-    else{
-        list.push(count);
-    }
-    console.log(list);
-    count = count+1
-}
+// function fizzBuzz () {
+//     if(count % 3 ===0 && count % 5 ===0){
+//         list.push("FizzBuzz");
+//     } else if (count % 3 ===0){
+//         list.push("Fizz");
+//     } else if (count % 5 ===0){
+//         list.push("Buzz");
+//     }
+//     else{
+//         list.push(count);
+//     }
+//     console.log(list);
+//     count = count+1
+// }
 
 
 // for (let i = 1; i < 10; i++){
 //     fizzBuzz(i);
 // }
+
+
+// function whosPaying(names) {
+    
+//     /******Don't change the code above*******/
+        
+//         //Write your code here.
+        
+//     let lengthList = list.length;   
+//     let random = Math.random()   
+        
+    
+    
+//     /******Don't change the code below*******/    
+//     }
+    
+// //     var list = []'
+// //     let name = prompt("inset a name")
+// //     list = list.push(name);
+
+// var list =[1,2,3,"test"];
+
+// let lengthList = list.length;   
+// console.log(lengthList);
+// let random = Math.floor(Math.random()*lengthList)
+// console.log(list[random]+ " needs to pay");
+
+
+// let list = [];
+// // let name = prompt("insert a name")
+
+// function whosPaying(names) {
+    
+//     /******Don't change the code above*******/
+        
+//         //Write your code here.
+//     console.log(list);
+//     list = list.push(names);  
+//     let lengthList = list.length;   
+//     console.log(lengthList);
+//     let random = Math.floor(Math.random()*lengthList);
+//     console.log(list[random]+ " is going to pay lunch today!");
+    
+//     /******Don't change the code below*******/    
+// }
+
+// function myLocalScope (){
+//     var myVar = 5; //LOCAL scope, if you remove var it will become GLOBAL
+//     console.log(myVar);
+//   }
+//   myLocalScope();
+//   console.log(myVar);
+
+
+function whosPaying(names) {
+    
+    /******Don't change the code above*******/
+        
+        //Write your code here.
+        
+    let lengthList = names.length;   
+    let random = Math.floor(Math.random()*lengthList);
+    let randomName = names[random]
+    return randomName;
+    
+    /******Don't change the code below*******/    
+    }
+
+    let names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
+    chosenName = whosPaying(names);
+    console.log(chosenName + " is going to pay lunch today!")
+
+    
+    
