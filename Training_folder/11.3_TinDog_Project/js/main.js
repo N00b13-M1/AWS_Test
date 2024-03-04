@@ -316,11 +316,8 @@ function whosPaying(names) {
     /******Don't change the code below*******/    
     }
 
-    
+
 
     let names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
     chosenName = whosPaying(names);
-    console.log(chosenName + " is going to pay lunch today!")
-
-    
-    
+    console.log(chosenName + " is going to pay lunch today!");
