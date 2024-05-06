@@ -302,22 +302,32 @@
 //   console.log(myVar);
 
 
-function whosPaying(names) {
+// function whosPaying(x) {
     
-    /******Don't change the code above*******/
+//     /******Don't change the code above*******/
         
-        //Write your code here.
+//         //Write your code here.
         
-    let lengthList = names.length;   
-    let random = Math.floor(Math.random()*lengthList);
-    let randomName = names[random]
-    return randomName;
+//     let lengthList = names.length;   
+//     let random = Math.floor(Math.random()*lengthList);
+//     let randomName = names[random]
+//     return randomName;
     
-    /******Don't change the code below*******/    
-    }
+//     /******Don't change the code below*******/    
+//     }
 
 
 
-    let names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
-    chosenName = whosPaying(names);
-    console.log(chosenName + " is going to pay lunch today!");
+//     let names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
+//     chosenName = whosPaying(names);
+//     console.log(chosenName + " is going to pay lunch today!");
+
+
+let list = ["test1","test2","test3"];
+
+console.log(list);
+
+for (let x = 0; x < list.length; x++) {
+    console.log(list[x]);
+};
+

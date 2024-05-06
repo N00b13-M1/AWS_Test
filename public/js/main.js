@@ -39,7 +39,6 @@ const people = {
 // console.log(people.city);
 
 for (let key in people){
-    console.log(people[key])
-    console.log("'this worked'")
+    console.log(people[key] + " it's working")
 }
 
