@@ -31,32 +31,46 @@
         let applyCSS = document.querySelector("head");
         console.log(applyCSS);
         let toggleButton = document.querySelector("button");
-        console.log(toggleButton.innerText)
+        console.log(toggleButton.inn);
 
-        let state = true
+        let state = true;
 
-        const link = document.createElement("link")
-        link.rel= "stylesheet"
-        link.href= "./public/css/style.css"
-        // console.log(link)
-      
-        toggleButton.addEventListener("click", () => {
-            if (state) {
-                console.log("state1")
-                applyCSS.appendChild(link);
-                // state = false
-            } else {
-                console.log("state2")
-                applyCSS.removeChild(link)
-                // state = true
-            }
-            
-            state = !state
-            console.log(state+" niveau3")
+        const link = document.createElement("link");
+        link.rel= "stylesheet";
+        link.href= "./public/css/style.css";
+        console.log(link);
 
-        });
-        console.log(state+" niveau1")
         
+        // const link = "<link rel="stylesheet" href="./public/css/style.css">";
+        // console.log(link);
+      
+
+        // toggleButton.addEventListener("click", () => {
+        //     if (state) {
+        //         console.log("state1")
+        //         applyCSS.appendChild(link);
+        //         // state = false
+        //     } else {
+        //         console.log("state2")
+        //         applyCSS.removeChild(link)
+        //         // state = true
+        //     }
+            
+        //     state = !state
+        //     console.log(state+" niveau3")
+
+        // });
+        // console.log(state+" niveau1")
+
+        function multiply (q,w) {
+            // q = 4;
+            // w = 5;
+            return q*w;
+        };
+        
+        console.log(multiply(10,9));
+
     </script>
 </body>
 </html>
+

@@ -18,27 +18,27 @@ const z =4;
 const products = [1,2,3,"A",5];
 console.log(products[3]);
 
-for (let test of products) {
-    console.log(test);
+for (let bob of products) {
+    console.log(bob);
 };
 
 const fruits = ["pear","apple","lemon","grape","strawberry"];
-console.log(fruits[3]);
+console.log(fruits[1]);
 
 for (let test in fruits) {
 
     console.log(fruits[test]);
 };
 
-const people = {
-    city: "cainta",
-    province: "rizal",
-    condominum: "cambridge",
-}
+// const people = {
+//     city: "cainta",
+//     province: "rizal",
+//     condominum: "cambridge",
+// }
 
-// console.log(people.city);
+// // console.log(people.city);
 
-for (let key in people){
-    console.log(people[key] + " it's working")
-}
+// for (let key in people){
+//     console.log(people[key] + " it's working")
+// }
 
