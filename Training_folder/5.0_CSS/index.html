@@ -43,32 +43,35 @@
         
         // const link = "<link rel="stylesheet" href="./public/css/style.css">";
         // console.log(link);
-      
 
-        // toggleButton.addEventListener("click", () => {
-        //     if (state) {
-        //         console.log("state1")
-        //         applyCSS.appendChild(link);
-        //         // state = false
-        //     } else {
-        //         console.log("state2")
-        //         applyCSS.removeChild(link)
-        //         // state = true
-        //     }
+        toggleButton.addEventListener("click", () => {
+            if (state) {
+                console.log(state+"state1")
+                applyCSS.appendChild(link);
+                // state -=1;
+            } else {
+                console.log(state+"state2")
+                applyCSS.removeChild(link)
+                // state +=1;
+            }
             
-        //     state = !state
-        //     console.log(state+" niveau3")
+            state = !state
+            // console.log(state+" niveau3")
 
-        // });
-        // console.log(state+" niveau1")
-
-        function multiply (q,w) {
-            // q = 4;
-            // w = 5;
-            return q*w;
-        };
+        });
         
-        console.log(multiply(10,9));
+        // console.log(state+" niveau1")
+        // test = y => {return y**7};
+        // let x = test(2);
+        // console.log(x);
+
+        // function multiply (q,w) {
+        //     // q = 4;
+        //     // w = 5;
+        //     return q*w;
+        // };
+        
+        // console.log(multiply(10,9));
 
     </script>
 </body>
