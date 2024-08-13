@@ -6,12 +6,18 @@
     <title>Example HTML website</title>
     <!-- <link rel="stylesheet" href="./public/css/style.css"> -->
      <style>
-        table, th, td {
+        *{
+            margin:0;
+        }
+        table, th,td {
             border-collapse:collapse;
             background-color: green;
             border: 1px solid white;
             padding:5px;
         }
+        /* dl{
+            border: 1px solid black;
+        } */
      </style>
 </head>
 <body>
@@ -25,6 +31,10 @@
                 <li><a href="./public/pages/about.html">About</a></li></li>
                 <li><a href="./public/pages/contact.html">Contact</a></li></li>
             </ul>
+            <iframe src="https://www.coffral.ph" height="100%" width=
+            "100%" title="Iframe Example"></iframe>
+            <iframe src="./public/pages/home.html" height="100%" width=
+            "100%" title="Iframe Example"></iframe>
         </nav>
     </header>
     <main>
@@ -62,6 +72,12 @@
                 <!-- <td>Makati</td> -->
             </tr>
         </table>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+          </dl>
         <br>
         <br>
     </main>
