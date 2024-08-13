@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Example HTML website</title>
     <!-- <link rel="stylesheet" href="./public/css/style.css"> -->
+     <style>
+        table, th, td {
+            border-collapse:collapse;
+            background-color: green;
+            border: 1px solid white;
+            padding:5px;
+        }
+     </style>
 </head>
 <body>
     <header>
@@ -25,38 +33,73 @@
         <button>Toggle CSS</button>
         <br>
         <br>
+        <table>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+                <th>Sex</th>
+                <th>Location</th>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>Lopez</td>
+                <td>15</td>
+                <td>F</td>
+                <td>Cainta</td>
+            </tr>
+            <tr>
+                <td>Mae</td>
+                <td>Ramos</td>
+                <td>23</td>
+                <td>F</td>
+                <td rowspan="2">Makati</td>
+            </tr>
+            <tr>
+                <td>Lynn</td>
+                <td>Ramos</td>
+                <td>27</td>
+                <td>F</td>
+                <!-- <td>Makati</td> -->
+            </tr>
+        </table>
+        <br>
+        <br>
     </main>
     <footer>Copyright &copy; App Brewery</footer>
     <script>
         let applyCSS = document.querySelector("head");
-        console.log(applyCSS);
-        let toggleButton = document.querySelector("button");
-        console.log(toggleButton.inn);
+        let link_test = applyCSS.querySelector("link");
+        link_test = true;
 
-        let state = true;
+        let toggleButton = document.querySelector("button");
+        console.log(toggleButton);
+
+        // let state = true;
 
         const link = document.createElement("link");
         link.rel= "stylesheet";
         link.href= "./public/css/style.css";
         console.log(link);
 
-        
+
+
         // const link = "<link rel="stylesheet" href="./public/css/style.css">";
         // console.log(link);
 
         toggleButton.addEventListener("click", () => {
-            if (state) {
-                console.log(state+"state1")
+            if (link_test) {
+                // console.log(link_test+" state1")
                 applyCSS.appendChild(link);
-                // state -=1;
+                // // state -=1;
             } else {
-                console.log(state+"state2")
+                // console.log(link_test+" state2")
                 applyCSS.removeChild(link)
-                // state +=1;
+                // // state +=1;
             }
             
-            state = !state
-            // console.log(state+" niveau3")
+            link_test = !link_test
+            // console.log(link_test)
+            // console.log(!link_test)
 
         });
         
